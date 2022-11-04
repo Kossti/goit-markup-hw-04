@@ -508,7 +508,7 @@ address {
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
-.adress-item-contacts {
+.adress-item-contacts :not(:last-child) {
   margin-bottom: 9px;
 }
 
